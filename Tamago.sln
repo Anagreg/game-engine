@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{D3F8D33D-E5F9-4EF8-B3D9-348391A79222}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tamago", "Tamago\Tamago.vcxproj", "{620FD23D-B827-4E77-A85A-1218747751F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{620FD23D-B827-4E77-A85A-1218747751F8}.Debug|x64.ActiveCfg = Debug|x64
+		{620FD23D-B827-4E77-A85A-1218747751F8}.Debug|x64.Build.0 = Debug|x64
+		{620FD23D-B827-4E77-A85A-1218747751F8}.Release|x64.ActiveCfg = Release|x64
+		{620FD23D-B827-4E77-A85A-1218747751F8}.Release|x64.Build.0 = Release|x64
+		{D3F8D33D-E5F9-4EF8-B3D9-348391A79222}.Debug|x64.ActiveCfg = Debug|x64
+		{D3F8D33D-E5F9-4EF8-B3D9-348391A79222}.Debug|x64.Build.0 = Debug|x64
+		{D3F8D33D-E5F9-4EF8-B3D9-348391A79222}.Release|x64.ActiveCfg = Release|x64
+		{D3F8D33D-E5F9-4EF8-B3D9-348391A79222}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3A47B3D-5D95-470F-9269-46F08E2D4AB8}
+	EndGlobalSection
+EndGlobal
