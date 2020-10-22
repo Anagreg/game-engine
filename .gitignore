@@ -1,6 +1,5 @@
 # Binaries
-**/bin/
-!vendor/premake/bin/
+bin/
 bin-int/
 
 # game-engine files
@@ -8,7 +7,4 @@ bin-int/
 
 # Visual Studio files and folder
 .vs/
-**.sln
-**.vcxproj
-**.vcxproj.filters
 **.vcxproj.user
