@@ -1,0 +1,3 @@
+[submodule "Tamago/vendor/spdlog"]
+	path = Tamago/vendor/spdlog
+	url = https://github.com/gabime/spdlog
