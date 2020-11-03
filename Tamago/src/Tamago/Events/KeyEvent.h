@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Tamago {
 
 	class TAMAGO_API KeyEvent : pupblic Event {

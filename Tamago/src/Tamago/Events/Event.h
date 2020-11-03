@@ -2,9 +2,6 @@
 
 #include "Tamago/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace Tamago {
 
 	enum class EventType {

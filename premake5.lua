@@ -18,6 +18,9 @@ project "Tamago"
    targetdir ("bin/" .. outputdir .. "/%{prj.name}")
    objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+   pchheader "tgpch.h"
+   pchsource "Tamago/src/tgpch.cpp"
+
    files{
       "%{prj.name}/src/**.h",
       "%{prj.name}/src/**.cpp"

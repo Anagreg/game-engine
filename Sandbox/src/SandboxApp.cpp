@@ -1,5 +1,6 @@
 #include <Tamago.h>
 
+
 class Sandbox : public Tamago::Application {
 public:
 	Sandbox() {

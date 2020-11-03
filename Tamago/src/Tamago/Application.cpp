@@ -1,7 +1,9 @@
+#include "tgpch.h"
 #include "Application.h"
 
 #include "Tamago/Events/ApplicationEvent.h"
 #include "Tamago/Log.h"
+
 
 
 namespace Tamago {

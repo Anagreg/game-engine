@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Tamago {
 
 	class TAMAGO_API WindowResizeEvent : public Event {

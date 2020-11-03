@@ -1,6 +1,5 @@
 #pragma once
 
-
 #ifdef TG_PLATFORM_WINDOWS
 
 extern Tamago::Application* Tamago::CreateApplication();
