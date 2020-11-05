@@ -10,6 +10,12 @@ workspace "Tamago"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "Tamago/vendor/GLFW/inlude"
+
+include "Tamago/vendor/GLFW"
+
 project "Tamago"
    location "Tamago"
    kind "SharedLib"
@@ -28,7 +34,13 @@ project "Tamago"
 
    includedirs{
       "%{prj.name}/src",
-      "%{prj.name}/vendor/spdlog/include"
+      "%{prj.name}/vendor/spdlog/include",
+      "%{IncludeDir.GLFW}"
+   }
+
+   links{
+      "GLFW",
+      "opengl32.lib"
    }
 
    filter "system:windows"
